@@ -293,7 +293,7 @@ p {
 }
 
 .card-text {
-  padding: 32px 0;
+  padding: 32px 16px;
 }
 
 .list-title.team {
@@ -362,11 +362,15 @@ p {
 
 /* Portfolio */
 
+.filter-section {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+
 .filter-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 96px;
   margin-bottom: 72px;
 }
 
@@ -403,8 +407,6 @@ p {
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  margin-top: 0px;
-  margin-bottom: 120px;
 }
 
 .portfolio-item {
@@ -423,7 +425,6 @@ p {
 
 .portfolio-title {
   padding-bottom: 8px;
-  padding-left: 16px;
 
   font-weight: 500;
   font-size: 20px;
@@ -433,9 +434,7 @@ p {
 }
 
 .portfolio-text {
-  padding-left: 16px;
   font-size: 16px;
-
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--main-page-color);
